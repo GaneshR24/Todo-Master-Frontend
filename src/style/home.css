@@ -1,0 +1,115 @@
+.layout {
+  margin: 10px 100px 0 100px;
+}
+.header {
+  background-image: linear-gradient(to right, #30cfd0 0%, #330867 100%);
+  padding: 20px;
+  border-radius: 5px;
+}
+
+.header-user {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  background-color: white;
+  padding: 3px 10px;
+  font-size: 17px;
+  color: #330867;
+  border: none;
+  border-radius: 3px;
+}
+.header-logout {
+  font-size: 20px;
+  cursor: pointer;
+}
+.logo {
+  font-size: 30px;
+  color: white;
+  margin: 0 !important;
+}
+.username {
+  font-size: 18px;
+  color: white;
+}
+
+.spinner {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.ant-spin-dot-item {
+  background-color: white !important;
+}
+
+.content {
+  height: 83vh;
+  box-shadow: 0 0 2px gray;
+  margin-top: 20px;
+  border-radius: 5px;
+  padding: 15px;
+  overflow-y: scroll;
+}
+
+.container {
+  max-width: 600px;
+  margin: auto;
+  padding: 0 1rem;
+}
+
+.top {
+  margin-top: 1rem;
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+}
+
+input {
+  border: none;
+  outline: none;
+  width: 400px;
+  padding: 0.5rem;
+  border-bottom: 2.5px solid #1f3b87;
+}
+
+.add {
+  background-color: #1f3b87;
+  color: #fff;
+  padding: 0.5rem 1.5rem;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.add:hover {
+  background-color: #101f47;
+}
+
+.todo {
+  position: relative;
+  margin-top: 1rem;
+  background-color: #101f47;
+  color: #fff;
+  padding: 1.5rem 3rem;
+  border-radius: 5px;
+}
+
+.icons {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 20px;
+  display: flex;
+  gap: 0.5rem;
+}
+
+.icon {
+  cursor: pointer;
+  font-size: 20px;
+}
+
+@media screen and (max-width: 700px) {
+  .layout {
+    margin: 0 15px;
+  }
+}

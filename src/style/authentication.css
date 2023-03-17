@@ -1,0 +1,51 @@
+.auth {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: linear-gradient(to right, #30cfd0 0%, #330867 100%);
+}
+
+.lottie {
+  height: 400px;
+}
+
+.auth input {
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.784);
+  color: white;
+}
+
+.auth input:focus {
+  outline: none !important;
+  box-shadow: none !important;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.784) !important;
+}
+
+label,
+a {
+  color: white !important;
+}
+
+.auth h1 {
+  font-size: 35px;
+  color: white;
+  font-weight: 600;
+}
+
+.primary {
+  background-color: #1b7e14;
+  padding: 5px 20px;
+  color: white;
+  border: none;
+  border-radius: 3px;
+}
+
+.secondary {
+  background-color: #ffffff;
+  padding: 5px 20px;
+  color: black !important;
+  font-weight: 500;
+  border: none;
+}
